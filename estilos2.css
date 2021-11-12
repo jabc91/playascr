@@ -1,0 +1,56 @@
+article{
+  color: white;
+  font-size: 23px;
+
+}
+p{
+
+  color: white;
+  font-size: 40px;
+}
+
+button{
+  text-align: center;
+  background: -webkit-linear-gradient(left, blue, orange, purple);
+  font: bold 36px verdana, sans-serif;
+  text-shadow: #DF7401 3px 3px;
+
+}
+
+#principal{
+  display: block;
+  width: 500px;
+  border: 5px solid black;
+  margin: 50px auto;
+  padding: 20px 10px;
+  background-color: purple;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -ms-border-radius: 30px;
+  transition: 5s;
+  box-shadow: #01A9DB 7px 5px;
+  outline: 2PX dashed white;
+  outline-offset: 30px;
+}
+
+#principal:hover{
+
+  display: block;
+  width: 500px;
+  border: 5px solid black;
+  margin: 50px auto;
+  padding: 20px 10px;
+  background-color: purple;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -ms-border-radius: 30px;
+
+  box-shadow: #01A9DB 7px 5px;
+  outline: 2PX dashed white;
+  outline-offset: 30px;
+
+  transform: rotate(35deg);
+
+}
